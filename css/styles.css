@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+    margin: 0;
+
+    background:
+    url("../img/zad_fon.jpg");
+    /*Путь что бы добавить 
+    картинку на задний фон zad_fon.jpg в папке img*/
+
+    font-family:'Fredoka', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 10px;
+}
+
+.card {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px; 
+    /*Если 20px пишем то - это имется для всех сторон отступ*/
+    background-color: #fff;
+    /*Под картинкой Avatar2.png белый фон zad_fon.jpg*/
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px; 
+    /*Белому фону сделаем закругления*/
+}
+
+.card-photo {
+    display: block; 
+    /*Картинку Avatar.jpg - необходимо сделать блочной*/
+    width: 200px;
+    /*Выстовим ширину картинки Avatar.jpg - 200px*/
+    height: 200px;
+    /*Выстовим высоту картинки Avatar.jpg - 200px*/
+    margin: 0 auto;
+    /*Выровним картинку по центру Avatar.jpg*/
+    
+    /*border-radius: 50%;
+    Сделать картинку круглой,в данный
+    момент она изначельно круглая*/
+}
+
+.card-title {
+    font-size: 18px;
+    /*Выстовить размер шрифта 18px - Aleks Mamaev*/
+    text-align: center;
+    /*Выровнить текст Aleks Mamaev по центру*/
+    color: black; 
+    /*Цвет текста Aleks Mamaev черный к примеру*/
+}
+
+.card-text {
+    font-size: 15px;
+    margin: 3px;
+    color: black;
+}
+
+.card-subtitle {
+    font-size: 18px;
+    /*Размер текста 18px - Мои навыки*/
+    color: black;
+    /*Цвет текста черный - Мои навыки*/
+    text-align: center;
+    /*Можно выстовить по центру надпись Мои навыки*/
+}
+
+.card-list {
+    font-size: 15px;
+    /*Размер шрифта - настройка смартфонов,
+    планшетов и т.д.*/
+    padding-left: 0;
+    /*Внутренний отступ убираем пишем 0*/
+    list-style-position: inside; 
+    /*Маркер был в один уровень с текстом*/
+    color: black;
+}
